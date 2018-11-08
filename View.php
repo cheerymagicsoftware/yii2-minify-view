@@ -16,7 +16,7 @@ use yii\web\Response;
  * Class View
  * @package rmrevin\yii\minify
  */
-class View extends \yii\web\View
+class View extends \luya\web\View
 {
 
     /**
