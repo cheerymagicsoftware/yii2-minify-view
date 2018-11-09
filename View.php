@@ -5,7 +5,7 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\minify;
+namespace cheerymagic\yii\minify;
 
 use yii\base\Event;
 use yii\helpers\FileHelper;

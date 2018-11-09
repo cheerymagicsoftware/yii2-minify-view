@@ -1,5 +1,5 @@
 {
-  "name": "rmrevin/yii2-minify-view",
+  "name": "cheerymagic/yii2-minify-view",
   "description": "Yii2 View component with auto minification css & js in runtime",
   "keywords": [
     "yii2",
@@ -18,9 +18,9 @@
   },
   "authors": [
     {
-      "name": "Revin Roman",
-      "email": "roman@rmrevin.com",
-      "homepage": "https://rmrevin.com/"
+      "name": "cheerymagic",
+      "email": "cheerymagicsoftware@gmail.com",
+      "homepage": "https://cheerymagicsoftware.github.io/"
     }
   ],
   "require": {
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "rmrevin\\yii\\minify\\": ""
+      "cheerymagic\\yii\\minify\\": ""
     }
   },
   "repositories": [

@@ -28,13 +28,13 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```bash
-composer require rmrevin/yii2-minify-view
+composer require cheerymagic/yii2-minify-view
 ```
 
 or add
 
 ```
-"rmrevin/yii2-minify-view": "^1.15",
+"cheerymagic/yii2-minify-view": "^1.15",
 ```
 
 to the `require` section of your `composer.json` file.
@@ -49,7 +49,7 @@ return [
 	'components' => [
 		// ...
 		'view' => [
-			'class' => '\rmrevin\yii\minify\View',
+			'class' => '\cheerymagic\yii\minify\View',
 			'enableMinify' => !YII_DEBUG,
 			'concatCss' => true, // concatenate css
 			'minifyCss' => true, // minificate css
@@ -74,3 +74,6 @@ return [
 	]
 ];
 ```
+Forked From
+---------
+[rmrevin/yii2-minify-view](https://github.com/rmrevin/yii2-minify-view)

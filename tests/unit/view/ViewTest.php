@@ -5,9 +5,9 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\minify\tests\unit\view;
+namespace cheerymagic\yii\minify\tests\unit\view;
 
-use rmrevin\yii\minify;
+use cheerymagic\yii\minify;
 use yii\helpers\FileHelper;
 use yii\helpers\Url;
 
@@ -20,7 +20,7 @@ class ViewTest extends minify\tests\unit\TestCase
 
     public function testMain()
     {
-        $this->assertInstanceOf('rmrevin\yii\minify\View', $this->getView());
+        $this->assertInstanceOf('cheerymagic\yii\minify\View', $this->getView());
 
         $this->assertEquals('CP1251', $this->getView()->forceCharset);
     }

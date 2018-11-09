@@ -5,7 +5,7 @@
  * @link https://rmrevin.com
  */
 
-namespace rmrevin\yii\minify\tests\unit\data;
+namespace cheerymagic\yii\minify\tests\unit\data;
 
 use yii\web\AssetBundle;
 

@@ -5,7 +5,7 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\minify\tests\unit;
+namespace cheerymagic\yii\minify\tests\unit;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\FileHelper;

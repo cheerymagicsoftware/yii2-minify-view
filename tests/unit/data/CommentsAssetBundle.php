@@ -4,7 +4,7 @@
  * @created 2017-12-22
  */
 
-namespace rmrevin\yii\minify\tests\unit\data;
+namespace cheerymagic\yii\minify\tests\unit\data;
 
 use yii\web\AssetBundle;
 use yii\web\View;

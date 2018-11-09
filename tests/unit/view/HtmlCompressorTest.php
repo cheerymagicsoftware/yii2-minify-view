@@ -5,10 +5,10 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\minify\tests\unit\view;
+namespace cheerymagic\yii\minify\tests\unit\view;
 
-use rmrevin\yii\minify\HtmlCompressor;
-use rmrevin\yii\minify\tests\unit\TestCase;
+use cheerymagic\yii\minify\HtmlCompressor;
+use cheerymagic\yii\minify\tests\unit\TestCase;
 
 /**
  * Class HtmlCompressorTest

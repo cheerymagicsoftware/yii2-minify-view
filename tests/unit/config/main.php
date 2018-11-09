@@ -11,7 +11,7 @@ return [
     'basePath'   => BASE_PATH,
     'components' => [
         'view'         => [
-            'class'        => 'rmrevin\yii\minify\View',
+            'class'        => 'cheerymagic\yii\minify\View',
             'minifyPath'   => BASE_PATH . '/runtime/minyfy',
             'basePath'     => BASE_PATH . '/runtime',
             'webPath'      => '/runtime',

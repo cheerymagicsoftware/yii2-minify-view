@@ -5,7 +5,7 @@
  * @link https://rmrevin.com
  */
 
-namespace rmrevin\yii\minify\components;
+namespace cheerymagic\yii\minify\components;
 
 use yii\helpers\Html;
 

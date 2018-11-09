@@ -5,7 +5,7 @@
  * @link https://rmrevin.ru
  */
 
-namespace rmrevin\yii\minify\tests\unit\data;
+namespace cheerymagic\yii\minify\tests\unit\data;
 
 use yii\web\AssetBundle;
 use yii\web\View;
@@ -34,7 +34,7 @@ class TestAssetBundle extends AssetBundle
     ];
 
     public $depends = [
-        'rmrevin\yii\minify\tests\unit\data\DependAssetBundle',
+        'cheerymagic\yii\minify\tests\unit\data\DependAssetBundle',
     ];
 
     public function init()

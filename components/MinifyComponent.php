@@ -5,9 +5,9 @@
  * @link https://rmrevin.com
  */
 
-namespace rmrevin\yii\minify\components;
+namespace cheerymagic\yii\minify\components;
 
-use rmrevin\yii\minify\View;
+use cheerymagic\yii\minify\View;
 use yii\caching\Cache;
 use yii\caching\TagDependency;
 
