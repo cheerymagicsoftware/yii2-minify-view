@@ -1,4 +1,4 @@
-Yii 2 Minify View Component
+Luya Minify View Component
 ===========================
 
 The main feature of this component - concatenate and compress files 
