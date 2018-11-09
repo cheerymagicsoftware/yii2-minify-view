@@ -1,14 +1,16 @@
 {
   "name": "cheerymagic/yii2-minify-view",
-  "description": "Yii2 View component with auto minification css & js in runtime",
+  "description": "Luya View component with auto minification css & js in runtime",
   "keywords": [
+    "php",
+    "luya",
     "yii2",
     "minify",
     "view",
     "js",
     "css"
   ],
-  "type": "yii2-extension",
+  "type": "luya-module",
   "license": "MIT",
   "minimum-stability": "stable",
   "support": {

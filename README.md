@@ -27,16 +27,19 @@ Installation
 
 The preferred way to install this extension is through [composer](https://getcomposer.org/).
 
-Either run
-
-```bash
-composer require cheerymagic/yii2-minify-view
-```
-
-or add
+Either add
 
 ```
-"cheerymagic/yii2-minify-view": "^1.15",
+"repositories": [
+    {
+        "type":"vcs",
+        "url":"https://github.com/cheerymagicsoftware/yii2-minify-view.git"
+    }
+],
+
+"require": {
+    "cheerymagic/yii2-minify-view": "master@dev"
+},
 ```
 
 to the `require` section of your `composer.json` file.
