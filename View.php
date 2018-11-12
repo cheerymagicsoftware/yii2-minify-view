@@ -237,14 +237,15 @@ class View extends \luya\web\View
         $this->trigger(self::EVENT_END_BODY);
 
         echo self::PH_BODY_END;
+        if(!\Yii::$app->request->headers->get('x-pjax')) {
+            foreach (array_keys($this->assetBundles) as $bundle) {
+                $this->registerAssetFiles($bundle);
+            }
 
-        foreach (array_keys($this->assetBundles) as $bundle) {
-            $this->registerAssetFiles($bundle);
-        }
-
-        if (true === $this->enableMinify) {
-            (new components\CSS($this))->export();
-            (new components\JS($this))->export();
+            if (true === $this->enableMinify) {
+                (new components\CSS($this))->export();
+                (new components\JS($this))->export();
+            }
         }
     }
 }
